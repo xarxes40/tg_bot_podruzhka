@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from tg_bot.handlers import register_handlers
 
 
-token = '5470688105:AAFEGXOgZ7e2BpaHktiuLBxcUxfQEccWvik'
+token = 'TOKEN'
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
