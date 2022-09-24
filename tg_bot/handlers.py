@@ -29,7 +29,7 @@ class Care:
         async def find_creams(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Кремы')
+            get_data('Уход за кожей_Лицо_Кремы')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -52,7 +52,7 @@ class Care:
         async def find_masks(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Маски')
+            get_data('Уход за кожей_Лицо_Маски')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -75,7 +75,7 @@ class Care:
         async def find_skin(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Для проблемной кожи')
+            get_data('Уход за кожей_Лицо_Для проблемной кожи')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -98,7 +98,7 @@ class Care:
         async def find_wash(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Умывание')
+            get_data('Уход за кожей_Лицо_Умывание')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -121,7 +121,7 @@ class Care:
         async def find_clear_makeup(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Для снятия макияжа')
+            get_data('Уход за кожей_Лицо_Для снятия макияжа')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -144,7 +144,7 @@ class Care:
         async def find_tonics(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Тоники и лосьоны')
+            get_data('Уход за кожей_Лицо_Тоники и лосьоны')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -167,7 +167,7 @@ class Care:
         async def find_serums(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Сыворотки')
+            get_data('Уход за кожей_Лицо_Сыворотки')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -190,7 +190,7 @@ class Care:
         async def find_scrubs(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Скрабы и пилинги')
+            get_data('Уход за кожей_Лицо_Скрабы и пилинги')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -213,7 +213,7 @@ class Care:
         async def find_skin_around_eyes(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Для кожи вокруг глаз')
+            get_data('Уход за кожей_Лицо_Для кожи вокруг глаз')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -236,7 +236,7 @@ class Care:
         async def find_lips(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Лицо_Для губ')
+            get_data('Уход за кожей_Лицо_Для губ')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -264,7 +264,7 @@ class Care:
         async def find_feeding(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Питание и увлажнение')
+            get_data('Уход за кожей_Тело_Питание и увлажнение')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -287,7 +287,7 @@ class Care:
         async def find_shower(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Гели и кремы для душа')
+            get_data('Уход за кожей_Тело_Гели и кремы для душа')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -310,7 +310,7 @@ class Care:
         async def find_for_hands(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Для рук')
+            get_data('Уход за кожей_Тело_Для рук')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -333,7 +333,7 @@ class Care:
         async def find_scrubs(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Скрабы и пилинги')
+            get_data('Уход за кожей_Тело_Скрабы и пилинги')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -356,7 +356,7 @@ class Care:
         async def find_soap(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Мыло')
+            get_data('Уход за кожей_Тело_Мыло')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -379,7 +379,7 @@ class Care:
         async def find_deodorants(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Дезодоранты')
+            get_data('Уход за кожей_Тело_Дезодоранты')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -402,7 +402,7 @@ class Care:
         async def find_clear_hair(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Удаление волос')
+            get_data('Уход за кожей_Тело_Удаление волос')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -425,7 +425,7 @@ class Care:
         async def find_sponges(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Мочалки и губки')
+            get_data('Уход за кожей_Тело_Мочалки и губки')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -448,7 +448,7 @@ class Care:
         async def find_for_legs(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Для ног')
+            get_data('Уход за кожей_Тело_Для ног')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -471,7 +471,7 @@ class Care:
         async def find_bath_salt(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Пена соль масла для ванны')
+            get_data('Уход за кожей_Тело_Пена соль масла для ванны')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -494,150 +494,7 @@ class Care:
         async def find_handkerchief(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Тело_Носовые платки')
-
-            with open('result.json', encoding='utf-8') as file:
-                data = json.load(file)
-
-            if not data:
-                await callback.message.answer('Нет результатов.')
-
-            for index, product in enumerate(data):
-                card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
-                       f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
-                       f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
-                       f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
-
-                if index % 20 == 0:
-                    time.sleep(3)
-
-                await callback.message.answer(card)
-
-    @staticmethod
-    async def show_hair(callback: types.CallbackQuery):
-        await callback.message.answer('Посмотри, что тебе нужно', reply_markup=hair_care_kb)
-
-    class Hair:
-        @staticmethod
-        async def find_shampoo(callback: types.CallbackQuery):
-            await callback.message.answer('Сейчас найдем...')
-
-            get_data('Уход_Волосы_Шампуни')
-
-            with open('result.json', encoding='utf-8') as file:
-                data = json.load(file)
-
-            if not data:
-                await callback.message.answer('Нет результатов.')
-
-            for index, product in enumerate(data):
-                card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
-                       f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
-                       f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
-                       f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
-
-                if index % 20 == 0:
-                    time.sleep(3)
-
-                await callback.message.answer(card)
-
-        @staticmethod
-        async def find_balsams(callback: types.CallbackQuery):
-            await callback.message.answer('Сейчас найдем...')
-
-            get_data('Уход_Волосы_Бальзамы и ополаскиватели')
-
-            with open('result.json', encoding='utf-8') as file:
-                data = json.load(file)
-
-            if not data:
-                await callback.message.answer('Нет результатов.')
-
-            for index, product in enumerate(data):
-                card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
-                       f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
-                       f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
-                       f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
-
-                if index % 20 == 0:
-                    time.sleep(3)
-
-                await callback.message.answer(card)
-
-        @staticmethod
-        async def find_masks(callback: types.CallbackQuery):
-            await callback.message.answer('Сейчас найдем...')
-
-            get_data('Уход_Волосы_Маски')
-
-            with open('result.json', encoding='utf-8') as file:
-                data = json.load(file)
-
-            if not data:
-                await callback.message.answer('Нет результатов.')
-
-            for index, product in enumerate(data):
-                card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
-                       f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
-                       f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
-                       f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
-
-                if index % 20 == 0:
-                    time.sleep(3)
-
-                await callback.message.answer(card)
-
-        @staticmethod
-        async def find_special_means(callback: types.CallbackQuery):
-            await callback.message.answer('Сейчас найдем...')
-
-            get_data('Уход_Волосы_Специальные средства')
-
-            with open('result.json', encoding='utf-8') as file:
-                data = json.load(file)
-
-            if not data:
-                await callback.message.answer('Нет результатов.')
-
-            for index, product in enumerate(data):
-                card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
-                       f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
-                       f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
-                       f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
-
-                if index % 20 == 0:
-                    time.sleep(3)
-
-                await callback.message.answer(card)
-
-        @staticmethod
-        async def find_styling(callback: types.CallbackQuery):
-            await callback.message.answer('Сейчас найдем...')
-
-            get_data('Уход_Волосы_Средства для укладки')
-
-            with open('result.json', encoding='utf-8') as file:
-                data = json.load(file)
-
-            if not data:
-                await callback.message.answer('Нет результатов.')
-
-            for index, product in enumerate(data):
-                card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
-                       f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
-                       f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
-                       f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
-
-                if index % 20 == 0:
-                    time.sleep(3)
-
-                await callback.message.answer(card)
-
-        @staticmethod
-        async def find_staining(callback: types.CallbackQuery):
-            await callback.message.answer('Сейчас найдем...')
-
-            get_data('Уход_Волосы_Окрашивание')
+            get_data('Уход за кожей_Тело_Носовые платки')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -665,7 +522,7 @@ class Care:
         async def find_tooth_brush(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Уход за полостью рта_Зубные щетки')
+            get_data('Уход за кожей_Уход за полостью рта_Зубные щетки')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -688,7 +545,7 @@ class Care:
         async def find_tooth_paste(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Уход за полостью рта_Зубные пасты')
+            get_data('Уход за кожей_Уход за полостью рта_Зубные пасты')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -711,7 +568,7 @@ class Care:
         async def find_conditioner(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Уход за полостью рта_Ополаскиватели')
+            get_data('Уход за кожей_Уход за полостью рта_Ополаскиватели')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -734,7 +591,7 @@ class Care:
         async def find_special_care(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Уход за полостью рта_Специальный уход')
+            get_data('Уход за кожей_Уход за полостью рта_Специальный уход')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -762,7 +619,7 @@ class Care:
         async def find_sunscreens(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Загар_Защита от солнца')
+            get_data('Уход за кожей_Загар_Защита от солнца')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -785,7 +642,7 @@ class Care:
         async def find_after_tan(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Загар_После загара')
+            get_data('Уход за кожей_Загар_После загара')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -808,7 +665,7 @@ class Care:
         async def find_auto_tan(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Загар_Автозагар')
+            get_data('Уход за кожей_Загар_Автозагар')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -831,7 +688,7 @@ class Care:
         async def find_tan_activation(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Загар_Активация загара')
+            get_data('Уход за кожей_Загар_Активация загара')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -859,7 +716,7 @@ class Care:
         async def find_gasket(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Прокладки')
+            get_data('Уход за кожей_Личная гигиена здоровье_Прокладки')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -882,7 +739,7 @@ class Care:
         async def find_tampons(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Тампоны')
+            get_data('Уход за кожей_Личная гигиена здоровье_Тампоны')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -905,7 +762,7 @@ class Care:
         async def find_intimate_hygiene(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Средства для интимной гигиены')
+            get_data('Уход за кожей_Личная гигиена здоровье_Средства для интимной гигиены')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -928,7 +785,7 @@ class Care:
         async def find_cotton_buds_and_disks(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Ватные палочки и диски')
+            get_data('Уход за кожей_Личная гигиена здоровье_Ватные палочки и диски')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -951,7 +808,7 @@ class Care:
         async def find_wet_wipes(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Влажные салфетки')
+            get_data('Уход за кожей_Личная гигиена здоровье_Влажные салфетки')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -974,7 +831,7 @@ class Care:
         async def find_sanitizer(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Санитайзеры')
+            get_data('Уход за кожей_Личная гигиена здоровье_Санитайзеры')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -997,7 +854,7 @@ class Care:
         async def find_goods_for_health(callback: types.CallbackQuery):
             await callback.message.answer('Сейчас найдем...')
 
-            get_data('Уход_Личная гигиена здоровье_Товары для здоровья')
+            get_data('Уход за кожей_Личная гигиена здоровье_Товары для здоровья')
 
             with open('result.json', encoding='utf-8') as file:
                 data = json.load(file)
@@ -1015,6 +872,150 @@ class Care:
                     time.sleep(3)
 
                 await callback.message.answer(card)
+
+
+class Hair:
+    @staticmethod
+    async def show_hair(callback: types.CallbackQuery):
+        await callback.message.answer('Посмотри, что тебе нужно', reply_markup=hair_kb)
+
+    @staticmethod
+    async def find_shampoo(callback: types.CallbackQuery):
+        await callback.message.answer('Сейчас найдем...')
+
+        get_data('Волосы_Шампуни')
+
+        with open('result.json', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if not data:
+            await callback.message.answer('Нет результатов.')
+
+        for index, product in enumerate(data):
+            card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
+                   f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
+                   f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
+                   f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
+
+            if index % 20 == 0:
+                time.sleep(3)
+
+            await callback.message.answer(card)
+
+    @staticmethod
+    async def find_balsams(callback: types.CallbackQuery):
+        await callback.message.answer('Сейчас найдем...')
+
+        get_data('Волосы_Бальзамы и ополаскиватели')
+
+        with open('result.json', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if not data:
+            await callback.message.answer('Нет результатов.')
+
+        for index, product in enumerate(data):
+            card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
+                   f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
+                   f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
+                   f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
+
+            if index % 20 == 0:
+                time.sleep(3)
+
+            await callback.message.answer(card)
+
+    @staticmethod
+    async def find_masks(callback: types.CallbackQuery):
+        await callback.message.answer('Сейчас найдем...')
+
+        get_data('Волосы_Маски')
+
+        with open('result.json', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if not data:
+            await callback.message.answer('Нет результатов.')
+
+        for index, product in enumerate(data):
+            card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
+                   f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
+                   f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
+                   f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
+
+            if index % 20 == 0:
+                time.sleep(3)
+
+            await callback.message.answer(card)
+
+    @staticmethod
+    async def find_special_means(callback: types.CallbackQuery):
+        await callback.message.answer('Сейчас найдем...')
+
+        get_data('Волосы_Специальные средства')
+
+        with open('result.json', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if not data:
+            await callback.message.answer('Нет результатов.')
+
+        for index, product in enumerate(data):
+            card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
+                   f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
+                   f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
+                   f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
+
+            if index % 20 == 0:
+                time.sleep(3)
+
+            await callback.message.answer(card)
+
+    @staticmethod
+    async def find_styling(callback: types.CallbackQuery):
+        await callback.message.answer('Сейчас найдем...')
+
+        get_data('Волосы_Средства для укладки')
+
+        with open('result.json', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if not data:
+            await callback.message.answer('Нет результатов.')
+
+        for index, product in enumerate(data):
+            card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
+                   f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
+                   f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
+                   f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
+
+            if index % 20 == 0:
+                time.sleep(3)
+
+            await callback.message.answer(card)
+
+    @staticmethod
+    async def find_staining(callback: types.CallbackQuery):
+        await callback.message.answer('Сейчас найдем...')
+
+        get_data('Волосы_Окрашивание')
+
+        with open('result.json', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if not data:
+            await callback.message.answer('Нет результатов.')
+
+        for index, product in enumerate(data):
+            card = f'{hlink(product.get("product_name"), product.get("product_href"))}\n' \
+                   f'{hbold("Старая цена: ")}{product.get("old_price")} рублей\n' \
+                   f'{hbold("Новая цена: ")}{product.get("current_price")} рублей\n' \
+                   f'{hbold("Скидка: ")}{product.get("sale_percent")} %.'
+
+            if index % 20 == 0:
+                time.sleep(3)
+
+            await callback.message.answer(card)
 
 
 class Makeup:
@@ -3508,13 +3509,13 @@ def register_handlers(dp: Dispatcher):
     dp.register_callback_query_handler(Care.Body.find_for_legs, text='У_Т_ног')
     dp.register_callback_query_handler(Care.Body.find_bath_salt, text='У_Т_Пена')
     dp.register_callback_query_handler(Care.Body.find_handkerchief, text='У_Т_платки')
-    dp.register_callback_query_handler(Care.show_hair, text='Волосы_Уход')
-    dp.register_callback_query_handler(Care.Hair.find_shampoo, text='У_В_Шампуни')
-    dp.register_callback_query_handler(Care.Hair.find_balsams, text='У_В_Бальзамы')
-    dp.register_callback_query_handler(Care.Hair.find_masks, text='У_В_Маски')
-    dp.register_callback_query_handler(Care.Hair.find_special_means, text='У_В_средства')
-    dp.register_callback_query_handler(Care.Hair.find_styling, text='У_В_укладки')
-    dp.register_callback_query_handler(Care.Hair.find_staining, text='У_В_Окрашивание')
+    dp.register_callback_query_handler(Hair.show_hair, text='Волосы')
+    dp.register_callback_query_handler(Hair.find_shampoo, text='У_В_Шампуни')
+    dp.register_callback_query_handler(Hair.find_balsams, text='У_В_Бальзамы')
+    dp.register_callback_query_handler(Hair.find_masks, text='У_В_Маски')
+    dp.register_callback_query_handler(Hair.find_special_means, text='У_В_средства')
+    dp.register_callback_query_handler(Hair.find_styling, text='У_В_укладки')
+    dp.register_callback_query_handler(Hair.find_staining, text='У_В_Окрашивание')
     dp.register_callback_query_handler(Care.show_mouth, text='Уход_рот_Ух')
     dp.register_callback_query_handler(Care.Mouth.find_tooth_brush, text='Ух_щетки')
     dp.register_callback_query_handler(Care.Mouth.find_tooth_brush, text='Ух_пасты')

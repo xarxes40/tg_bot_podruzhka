@@ -5,7 +5,8 @@ keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
 keyboard.add(KeyboardButton('Давай, подружка'))
 
 top_inline_kb = InlineKeyboardMarkup(row_width=1).add(
-    *[InlineKeyboardButton(text='Уход', callback_data='Уход'),
+    *[InlineKeyboardButton(text='Уход за кожей', callback_data='Уход'),
+      InlineKeyboardButton(text='Волосы', callback_data='Волосы'),
       InlineKeyboardButton(text='Макияж', callback_data='Макияж'),
       InlineKeyboardButton(text='Аксессуары', callback_data='Аксессуары'),
       InlineKeyboardButton(text='Для дома', callback_data='Для дома'),
@@ -18,7 +19,6 @@ top_inline_kb = InlineKeyboardMarkup(row_width=1).add(
 care_kb = InlineKeyboardMarkup(row_width=2).add(
     *[InlineKeyboardButton(text='Лицо', callback_data='Лицо_Уход'),
       InlineKeyboardButton(text='Тело', callback_data='Тело_Уход'),
-      InlineKeyboardButton(text='Волосы', callback_data='Волосы_Уход'),
       InlineKeyboardButton(text='Уход за полостью рта', callback_data='Уход_рот_Ух'),
       InlineKeyboardButton(text='Загар', callback_data='Загар_Уход'),
       InlineKeyboardButton(text='Личная гигиена', callback_data='Гигиена_Ух')])
@@ -48,14 +48,6 @@ body_care_kb = InlineKeyboardMarkup(row_width=2).add(
       InlineKeyboardButton(text='Пена соль масла для ванны', callback_data='У_Т_Пена'),
       InlineKeyboardButton(text='Носовые платки', callback_data='У_Т_платки')])
 
-hair_care_kb = InlineKeyboardMarkup(row_width=2).add(
-    *[InlineKeyboardButton(text='Шампуни', callback_data='У_В_Шампуни'),
-      InlineKeyboardButton(text='Бальзамы и ополаскиватели', callback_data='У_В_Бальзамы'),
-      InlineKeyboardButton(text='Маски', callback_data='У_В_Маски'),
-      InlineKeyboardButton(text='Специальные средства', callback_data='У_В_средства'),
-      InlineKeyboardButton(text='Средства для укладки', callback_data='У_В_укладки'),
-      InlineKeyboardButton(text='Окрашивание', callback_data='У_В_Окрашивание')])
-
 mouth_care_kb = InlineKeyboardMarkup(row_width=1).add(
     *[InlineKeyboardButton(text='Зубные щетки', callback_data='Ух_щетки'),
       InlineKeyboardButton(text='Зубные пасты', callback_data='Ух_пасты'),
@@ -77,6 +69,13 @@ hygiene_care_kb = InlineKeyboardMarkup(row_width=2).add(
       InlineKeyboardButton(text='Санитайзеры', callback_data='У_г_Санитайзеры'),
       InlineKeyboardButton(text='Товары для здоровья', callback_data='У_г_здоровья')])
 
+hair_kb = InlineKeyboardMarkup(row_width=2).add(
+    *[InlineKeyboardButton(text='Шампуни', callback_data='У_В_Шампуни'),
+      InlineKeyboardButton(text='Бальзамы и ополаскиватели', callback_data='У_В_Бальзамы'),
+      InlineKeyboardButton(text='Маски', callback_data='У_В_Маски'),
+      InlineKeyboardButton(text='Специальные средства', callback_data='У_В_средства'),
+      InlineKeyboardButton(text='Средства для укладки', callback_data='У_В_укладки'),
+      InlineKeyboardButton(text='Окрашивание', callback_data='У_В_Окрашивание')])
 
 makeup_kb = InlineKeyboardMarkup(row_width=2).add(
     *[InlineKeyboardButton(text='Лицо', callback_data='Лицо_Макияж'),
